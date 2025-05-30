@@ -25,11 +25,11 @@ Users should be able to:
 - View the optimal layout for the site depending on their device's screen size
 - Images should adapt to the device's screen size improving load times
 
-### Screenshots
+### Screenshots (Click to view larger)
 
-<img src="./screenshots/mobile.jpeg" alt="Alt Text" style="height:640px;">
-<img src="./screenshots/tablet.jpeg" alt="Alt Text" style="height:640px;">
-<img src="./screenshots/desktop.jpeg" alt="Alt Text" style="height:640px;">
+<img src="./screenshots/mobile.jpeg" alt="Alt Text" style="height:320px;">
+<img src="./screenshots/tablet.jpeg" alt="Alt Text" style="height:320px;">
+<img src="./screenshots/desktop.jpeg" alt="Alt Text" style="height:320px;">
 
 ---
 

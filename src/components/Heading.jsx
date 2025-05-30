@@ -8,18 +8,18 @@ function Heading() {
         alt="Meet company logo"
         className="mx-auto mt-12 mb-8"
       />
-      <div className="grid grid-cols-2 lg:grid-cols-3 py-8 justify-items-center items-center">
-        <img
-          src="assets/desktop/image-hero-left.png"
-          alt="Photo thumbnails of different people"
-          className=""
-        />
-        <img
-          src="assets/desktop/image-hero-right.png"
-          alt="Photo thumbnails of different people"
-          className="lg:order-3"
-        />
-        <div className="col-span-2 mt-12 lg:order-2 lg:col-span-1 max-w-md lg:max-w-lg text-center">
+      <div className="grid lg:grid-cols-3 py-8 justify-items-center">
+        <picture>
+          <source
+            media="(min-width: 64rem)"
+            srcSet="assets/desktop/image-hero-left.png"
+          />
+          <img
+            src="assets/tablet/image-hero.png"
+            alt="Photo thumbnails of different people"
+          />
+        </picture>
+        <div className="mt-12 max-w-md lg:max-w-lg text-center mx-auto">
           <div className="px-8">
             <h1 className="font-black text-[2.5rem] sm:text-5xl lg:text-[4rem] leading-[1.1] text-slate900">
               Group Chat for Everyone
@@ -29,7 +29,7 @@ function Heading() {
               and collaborate across any device.
             </p>
           </div>
-          <div className="grid grid-rows-2 gap-4 sm:grid-rows-none sm:grid-cols-2 justify-self-center">
+          <div className="grid grid-rows-2 gap-2 sm:grid-rows-none sm:grid-cols-2 sm:gap-0 justify-self-center">
             <Button bgColor={"bg-cyan600 hover:bg-cyan600/75"}>
               Download <span className="text-cyan300">v1.3</span>
             </Button>
@@ -38,6 +38,17 @@ function Heading() {
             </Button>
           </div>
         </div>
+        <picture>
+          <source
+            media="(min-width: 64rem)"
+            srcSet="assets/desktop/image-hero-right.png"
+          />
+          <img
+            src="assets/tablet/image-hero.png"
+            alt="Photo thumbnails of different people"
+            className="hidden lg:block"
+          />
+        </picture>
       </div>
     </header>
   );
