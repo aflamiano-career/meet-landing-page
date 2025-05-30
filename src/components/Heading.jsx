@@ -8,7 +8,7 @@ function Heading() {
         alt="Meet company logo"
         className="mx-auto mt-12 mb-8"
       />
-      <div className="grid lg:grid-cols-3 py-8 justify-items-center">
+      <div className="grid lg:grid-cols-3 py-8 justify-items-center items-center">
         <picture>
           <source
             media="(min-width: 64rem)"
