@@ -3,6 +3,8 @@
 A responsive landing page built with **React**, **Vite**, and **Tailwind CSS**.  
 This project is a solution to the [Frontend Mentor Meet Landing Page Challenge](https://www.frontendmentor.io/challenges/meet-landing-page-rbTDS6OUR).
 
+## LIVE SITE: [![Github pages icon](https://img.shields.io/badge/GitHub%20Pages-222222?style=for-the-badge&logo=github%20Pages&logoColor=white)](https://aflamiano-career.github.io/meet-landing-page/)
+
 ---
 
 ## Table of contents
